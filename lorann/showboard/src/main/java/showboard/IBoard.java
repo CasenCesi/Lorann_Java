@@ -53,6 +53,8 @@ public interface IBoard {
 
     /**
      * Gets the dimension.
+     * 
+     * 
      *
      * @return the dimension
      */

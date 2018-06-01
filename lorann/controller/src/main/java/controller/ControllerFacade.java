@@ -45,7 +45,7 @@ public class ControllerFacade implements IController {
         this.getView().displayMessage(this.getModel().getExampleById(1).toString());
 
         this.getView().displayMessage(this.getModel().getExampleByName("Example 2").toString());
-
+        
         final List<Example> examples = this.getModel().getAllExamples();
         final StringBuilder message = new StringBuilder();
         for (final Example example : examples) {
@@ -53,6 +53,7 @@ public class ControllerFacade implements IController {
             message.append('\n');
         }
         this.getView().displayMessage(message.toString());
+        
     }
 
     /**

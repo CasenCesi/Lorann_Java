@@ -20,4 +20,6 @@ public interface ISquare {
      * @return the image
      */
     Image getImage();
+    
+    
 }
