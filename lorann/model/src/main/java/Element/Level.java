@@ -8,10 +8,23 @@ import motionless.MotionlessElementFactory;
 
 public class Level extends Observable implements ILevel {
 
+	/** The width. */
 	private int width;
+	
+	/** The height*/
 	private int height;
 	
+	/** The element on the map*/
 	private IElement[][] onTheMap;
+	
+	/**
+	 * Loads a new map with the content of the file filename.
+	 * 
+	 * @param filename
+	 * The file name where the map of the level is.
+	 * @throws IOException
+	 * Signals that an I/O exception has occured.
+	 */
 	
 	Level(final String filename) throws IOException{
 		
@@ -20,6 +33,9 @@ public class Level extends Observable implements ILevel {
 		
 	}
 	
+	/**
+	 * Reads the file filename line by line to create the new map.
+	 */
 	 private void loadFile(final String fileName) throws IOException {
 	        final BufferedReader buffer = new BufferedReader(new InputStreamReader(new FileInputStream(fileName)));
 	        String line;

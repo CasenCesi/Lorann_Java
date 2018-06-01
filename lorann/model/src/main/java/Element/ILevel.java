@@ -2,6 +2,13 @@ package Element;
 
 import java.util.Observable;
 
+/**
+ * 
+ * <h1>ILevel Interface</h1>
+ * This interface implements the Level Class.
+ *
+ */
+
 public interface ILevel {
 
 	int getWidth();
