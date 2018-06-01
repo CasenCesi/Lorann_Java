@@ -6,6 +6,11 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+/**
+ * <h1>The Sprite Class</h1>
+ * Retrieves the sprites.
+ *
+ */
 public class Sprite {
 
 	private Image image;
