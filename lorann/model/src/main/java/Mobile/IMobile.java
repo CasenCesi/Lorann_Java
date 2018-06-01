@@ -1,6 +1,15 @@
 package Mobile;
 
+<<<<<<< HEAD
 import java.awt.Point;
+=======
+/**
+ * 
+ * Interface used to call the execution of Mobile Class
+ * 
+ */
+public interface IMobile {
+>>>>>>> master
 
 import Element.IElement;
 import showboard.IPawn;
