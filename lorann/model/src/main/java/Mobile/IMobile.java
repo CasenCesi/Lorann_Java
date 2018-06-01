@@ -1,6 +1,5 @@
 package Mobile;
 
-<<<<<<< HEAD
 import java.awt.Point;
 =======
 /**
